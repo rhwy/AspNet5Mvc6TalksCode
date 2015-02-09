@@ -1,0 +1,9 @@
+echo Minimal AspProject on Mac/Linux
+echo -------------------------------
+echo 1/ restore packages if needed
+echo 2/ start web server on http://localhost:5001
+echo -------------------------------
+echo
+
+kpm restore
+k web
