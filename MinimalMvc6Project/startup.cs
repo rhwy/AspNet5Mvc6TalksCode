@@ -1,3 +1,4 @@
+//https://github.com/rhwy/AspNet5Mvc6TalksCode
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Mvc;
 using Microsoft.Framework.DependencyInjection;
@@ -12,9 +13,11 @@ public class Startup
 
         public void Configure(IApplicationBuilder app)
         {
-                app.UseMvc(routes => {
-                        routes.MapRoute(name:"default",
-                        template:"{controller=home}/{action=index}");
-                });
+          //first test by uncommenting this
+          //app.UseWelcomePage();
+          app.UseMvc(routes => {
+              routes.MapRoute(name:"default",
+              template:"{controller=home}/{action=index}");
+          });
         }
 }
