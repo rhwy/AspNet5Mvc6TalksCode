@@ -10,7 +10,7 @@ public class Tests
   public void should_say_hello()
   {
     //put "tests in aspnet5" to pass the test
-    var message = "";
+    var message = "tests in aspnet5";
     var actual = $"hello {message}";
     var expected = "hello tests in aspnet5";
     Check
