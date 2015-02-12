@@ -16,7 +16,7 @@ xUnit is to put a cs file with a class and adding `[Fact]` to the
 methods we want to consider as tests. Then you just run the tests
 with `k test`.
 
-## Contiuous Tests
+## Continuous Tests
 
 Continuous testing is just another step in optimizing your feedback
 loop while doing TDD that is really hard to avoid when you start using
