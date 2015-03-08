@@ -1,15 +1,15 @@
 {
   "dependencies" : {
         "Kestrel":"1.0.0-*",
-        "Microsoft.AspNet.Owin":"1.0.0-*",
+        "Microsoft.AspNet.Owin":"1.0.0-beta3-*",
         "Microsoft.AspNet.Mvc":"6.0.0-*",
-        "Microsoft.AspNet.Hosting": "1.0.0-*",
-        "Microsoft.AspNet.StaticFiles": "1.0.0-*",
-        "Microsoft.Framework.DependencyInjection":"1.0.0-beta3",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-*",
-        "Microsoft.Framework.ConfigurationModel":"1.0.0-*",
-        "Microsoft.Framework.ConfigurationModel.Json":"1.0.0-*",
-        "Microsoft.AspNet.Diagnostics": "1.0.0-*"
+        "Microsoft.AspNet.Hosting": "1.0.0-beta3-*",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta3-*",
+        "Microsoft.Framework.DependencyInjection":"1.0.0-beta3-*",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta3-*",
+        "Microsoft.Framework.ConfigurationModel":"1.0.0-beta3-*",
+        "Microsoft.Framework.ConfigurationModel.Json":"1.0.0-beta3-*",
+        "Microsoft.AspNet.Diagnostics": "1.0.0-beta3-*"
   },
   "frameworks":{
         "aspnet50":{},
