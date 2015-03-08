@@ -1,0 +1,7 @@
+{
+"name": "MinimalMvc6Sample",
+"description": "A very minimal sample build from files and shell",
+"env": {
+"BUILDPACK_URL": "https://github.com/heroku/dotnet-buildpack.git"
+}
+}
