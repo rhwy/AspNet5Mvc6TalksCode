@@ -1,9 +1,11 @@
+#!/usr/bin/env bash
 echo Minimal AspProject on Mac/Linux
 echo -------------------------------
 echo 1/ restore packages if needed
 echo 2/ start web server on http://localhost:5001
 echo -------------------------------
-echo
+echo 
 
-kpm restore
-k web
+dnu restore
+open http://localhost:5001
+dnx web

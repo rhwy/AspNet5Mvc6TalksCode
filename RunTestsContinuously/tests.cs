@@ -1,20 +1,22 @@
 //https://github.com/rhwy/AspNet5Mvc6TalksCode
-using static System.Console;
-using Xunit;
-using NFluent;
-using System;
-
-public class Tests
+namespace RunningMyFirstTestContinuously
 {
-  [Fact]
-  public void should_say_hello()
+  using Xunit;
+  using NFluent;
+  using System;
+
+  public class Tests
   {
-    //put "tests in aspnet5" to pass the test
-    var message = "";
-    var actual = $"hello {message}";
-    var expected = "hello tests in aspnet5";
-    Check
-      .That(actual)
-      .IsEqualTo(expected);
+    [Fact]
+    public void should_say_hello()
+    {
+      //put "world" in message to pass your first test!
+      var message = "";
+      var actual = $"hello {message}";
+      var expected = "hello world";
+      Check
+        .That(actual)
+        .IsEqualTo(expected);
+    }
   }
 }

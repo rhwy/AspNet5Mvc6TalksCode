@@ -2,7 +2,7 @@ public class HomeController
 {
         public string Index()
         {
-            return "Hello from MVC6";
+            return "Hello from MVC6!";
         }
 
         public string Demo()

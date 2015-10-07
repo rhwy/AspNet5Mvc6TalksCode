@@ -10,7 +10,7 @@ from console on Mac/Linux but you can obviously also open them
 on Windows.
 
 I'll try to keep all the projects here up to date with the last
-KRE, but feel free to PR me if I missed something, if you want to complete a
+DNX runtime, but feel free to PR me if I missed something, if you want to complete a
 demo or add a new one.
 
 # Current Projects
@@ -35,6 +35,6 @@ Here is the current list:
 3. [Run Continuously & tests](RunTestsContinuously/). Simple lib for testing and file watcher. You'll learn to:
     * load test lib
     * lunch the test runner
-    * add a tool to watch contiuously your files
+    * add a tool to do continuous testing while you write your tests (by simply adding a file watcher+test runner)
 
     
