@@ -5,7 +5,9 @@
 *.suo
 *.user
 *.sln.docstates
+project.lock.json
 
+onx web
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
