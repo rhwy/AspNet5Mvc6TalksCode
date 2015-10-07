@@ -11,6 +11,6 @@
     },
     "commands": {
         "test": "xunit.runner.aspnet",
-        "run":"watchbird --dnx=xunit.runner.aspnet"
+        "watch":"watchbird --dnx=xunit.runner.aspnet"
     }
 }
